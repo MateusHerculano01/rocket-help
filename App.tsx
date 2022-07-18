@@ -1,11 +1,14 @@
-import React from 'react';
-import { StatusBar } from 'expo-status-bar';
+import { NativeBaseProvider } from 'native-base';
+
+import { THEME } from './src/styles/theme';
 
 import { SignIn } from './src/screens/SignIn';
 
 export default function App() {
   return (
-    <SignIn />
+    <NativeBaseProvider theme={THEME}>
+      <SignIn />
+    </NativeBaseProvider>
   );
 }
 
