@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1071327860361",
+    "firebase_url": "https://dropbox-clone-72337-default-rtdb.firebaseio.com",
+    "project_id": "dropbox-clone-72337",
+    "storage_bucket": "dropbox-clone-72337.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071327860361:android:aed5d9c918407e15f85858",
+        "android_client_info": {
+          "package_name": "com.rockethelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071327860361-en290aqtljajb2rrhn10gm0uiaahs68t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7EJQtjXGgQixSkjN_wlZac2nhKzTyGyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071327860361-en290aqtljajb2rrhn10gm0uiaahs68t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1071327860361-vd3c3b5b0dtuuqjan5dah3jtdq3ouppv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rockethelp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
