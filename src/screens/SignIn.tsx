@@ -19,8 +19,8 @@ export function SignIn() {
 
   function handleSignIn() {
     if (!email || !password) {
-      Alert.alert("Entrar", "Informe e-mail e senha")
       setIsLoading(false);
+      return Alert.alert("Entrar", "Informe e-mail e senha")
     }
 
     setIsLoading(true);
