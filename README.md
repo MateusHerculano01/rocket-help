@@ -3,32 +3,17 @@
 
 <h1> 💬 RocketHelp - Gestão de chamados de T.I</h1>
 
-  
-
 <br>
 
-  
-
-<p>
-
+<p align="center">
 <img  src="https://user-images.githubusercontent.com/71537090/159611634-9c2009c9-fe18-433a-829f-320b3c68a6f6.png"  height="35px"/>
-
 &nbsp;
-
 <img  src="https://user-images.githubusercontent.com/71537090/159611771-394305ff-02c4-4440-af93-f6d601381392.png"  height="35px"/>
-
 &nbsp;
-
-<img  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"  height="35px"/>
-
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"  height="35px"/>
 &nbsp;
-
 <img  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"  height="35px"/>
-
 </p>
-
-  
-
 <br>
 
   
@@ -81,9 +66,7 @@ Você vai me encontrar em qualquer uma das redes sociais abaixo:
 
   
 
-<a  href = "https://www.instagram.com/mateusherculano0/"><img  src="https://img.shields.io/badge/Instagram-C93C94?&style=flat-square&logo=Instagram&logoColor=white"  target="_blank"  margin-right="10px"></a>
-
-<a  href="https://www.linkedin.com/in/mateus-herculano001/"  target="_blank"><img  src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"  target="_blank"></a>
+<a  href = "https://www.instagram.com/mateusherculano0/"><img  src="https://img.shields.io/badge/Instagram-C93C94?&style=flat-square&logo=Instagram&logoColor=white"  target="_blank"  margin-right="10px"></a> <a  href="https://www.linkedin.com/in/mateus-herculano001/"  target="_blank"><img  src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"  target="_blank"></a>
 
   
   
