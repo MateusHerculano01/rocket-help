@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { Alert } from 'react-native';
+import auth from '@react-native-firebase/auth';
 import { useNavigation } from '@react-navigation/native';
 import { Heading, HStack, IconButton, Text, useTheme, VStack, FlatList, Center } from 'native-base';
 import { SignOut, ChatTeardropText } from 'phosphor-react-native';
@@ -23,6 +25,15 @@ export function Home() {
     }
   ]);
 
+  function handleLogout() {
+    auth()
+      .signOut()
+      .catch(error => {
+        console.log(error);
+        return Alert.alert('Sair', 'Não foi possível sair da aplicação.');
+      })
+  }
+
   function handleNewOrder() {
     navigation.navigate("Register");
   }
@@ -46,6 +57,7 @@ export function Home() {
 
         <IconButton
           icon={<SignOut size={26} color={colors.gray[300]} />}
+          onPress={handleLogout}
         />
 
 
