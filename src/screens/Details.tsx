@@ -141,6 +141,8 @@ export function Details() {
             order.status === 'open' &&
             <Input
               h={32}
+              bg="gray.700"
+              color="lightText"
               placeholder='Descrição da solução'
               onChangeText={setSolution}
               textAlignVertical="top"
