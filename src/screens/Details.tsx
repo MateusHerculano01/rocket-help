@@ -4,7 +4,7 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import { HStack, VStack, useTheme, Text, ScrollView, Input, Box } from 'native-base';
 import firestore from '@react-native-firebase/firestore';
 import { OrderFirestoreDTO } from '../DTOs/OrderFirestoreDTO';
-import { CircleWavyCheck, Hourglass, DesktopTower, Clipboard } from 'phosphor-react-native'
+import { CircleWavyCheck, Hourglass, DesktopTower, ClipboardText } from 'phosphor-react-native'
 
 import { dateFormat } from '../Utils/firestoreDateFormat';
 
@@ -124,12 +124,12 @@ export function Details() {
           title="equipamento"
           description={`Patrimômio ${order.patrimony}`}
           icon={DesktopTower}
-          footer={order.when}
         />
         <CardDetails
           title="descrição do problema"
           description={order.description}
-          icon={Clipboard}
+          icon={ClipboardText}
+          footer={`Registrado em ${order.when}`}
         />
         <CardDetails
           title="solução"
